@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    font-size: 17px;
+    border-radius: 50%;
+}

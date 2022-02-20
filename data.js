@@ -1,0 +1,1 @@
+const data = `yellow_жёлтый, red_красный, black_чёрный, white_белый | бежевый`;
