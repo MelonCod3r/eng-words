@@ -3,6 +3,7 @@ const data = `
     red / красный
     black / чёрный
     white / белый | бежевый
+    green / деньги
 `;
 
 /*
