@@ -15,6 +15,7 @@ nextBtn.addEventListener('click', () => {
     if(used.length === list.length) {
         engHeader.textContent = 'that\'s all';
         rusHeader.textContent = 'good job :)';
+        translateBtn.disabled = true;
         return;
     }
     let index = null;
@@ -25,7 +26,7 @@ nextBtn.addEventListener('click', () => {
     const [eng, rus] = list[index].split(' / ');
     engHeader.textContent = eng;
     rusHeader.textContent = '*****';
-    translation = rus;
+    translation = rus.replaceAll(' | ', '\n');
 });
 
 translateBtn.addEventListener('click', () => rusHeader.textContent = translation);

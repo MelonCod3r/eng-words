@@ -4,3 +4,11 @@ const data = `
     black / чёрный
     white / белый | бежевый
 `;
+
+/*
+
+git add .
+git commit -m "change data"
+git push origin master
+
+*/
